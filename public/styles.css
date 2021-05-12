@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  position: relative;
+  background-image: url("./image/gardenImage.jpg");
+}
+
+
+h1 {
+    color: black;
+  }
+  
+li {
+  list-style-type: none ;
+
+}
+
+.header {
+  background-color: white;
+  padding: 20px ;
+  border-radius: 10px;   
+}
+
+.hello {
+  background-color: white;
+  padding: 20px ;
+  border-radius: 10px;
+}
+
+.today {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+  .footer {
+    background-color: aquamarine;
+  }
+  
+  .garden-img {
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px auto ;
+    padding: 10px;
+    text-align: center;
+  }
+  
