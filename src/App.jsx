@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Hello from './Hello';
 // import Card from './Card';
-import Images from './Images';
-import List from './List';
+// import Images from './Images';
+// import List from './List';
 import Today from './Today';
 import Footer from './Footer';
 import Todo from './Todo';
@@ -81,13 +81,14 @@ function App(props) {
 
   return (
     <div>
-      return (
-      <Images />
+      {/* <Images /> */}
       <Header />
       <Hello />
-      <Today />
+
       <div className="todoapp stack-large">
+        <Today />
         <Form addTask={addTask} />
+
         <div className="filters btn-group stack-exception">{filterList}</div>
         <h2 id="list-heading">{headingText}</h2>
         <ul
@@ -98,8 +99,8 @@ function App(props) {
           {taskList}
         </ul>
       </div>
-      );
-      <List />
+
+      {/* <List /> */}
       {/* <Card /> */}
       <Footer />
     </div>

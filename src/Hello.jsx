@@ -24,7 +24,6 @@ function Hello() {
   return (
     <div className="hello">
       <h1 style={customStyles}>{greeting}</h1>
-      <h2>Welcome to Orpa's Home Helper App</h2>
     </div>
   );
 }

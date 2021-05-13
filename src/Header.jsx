@@ -4,7 +4,9 @@ function Header() {
   return (
     <div className="header">
       <header>
-        <h1>Home Helper</h1>
+        <h1>
+          <h2>Welcome to Orpa's Home Helper App</h2>
+        </h1>
       </header>
     </div>
   );

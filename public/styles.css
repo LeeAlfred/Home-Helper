@@ -5,8 +5,9 @@ body {
 }
 
 
-h1 {
-    color: black;
+h1, h2 {
+    color: white;
+    size: 2em;
   }
   
 li {
@@ -15,19 +16,21 @@ li {
 }
 
 .header {
-  background-color: white;
+ 
+  background-color:transparent;
   padding: 20px ;
   border-radius: 10px;   
 }
 
 .hello {
-  background-color: white;
+  background-color: transparent;
   padding: 20px ;
   border-radius: 10px;
 }
 
 .today {
-  background-color: white;
+ 
+  background-color: transparent;
   border-radius: 10px;
   padding: 20px;
 }
@@ -36,11 +39,11 @@ li {
     background-color: aquamarine;
   }
   
-  .garden-img {
+  /* .garden-img {
     width: 20%;
     border: 2px solid white;
     border-radius: 10px;
-  }
+  } */
   
   .card {
     background-color: white;
@@ -126,6 +129,8 @@ body {
 }
 /*END RESETS*/
 /* GLOBAL STYLES */
+
+
 .form-group > input[type="text"] {
   display: inline-block;
   margin-top: 0.4rem;

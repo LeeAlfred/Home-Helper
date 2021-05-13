@@ -1,13 +1,13 @@
-import React from 'react';
+// import React from 'react';
 
-function Images() {
-  return (
-    <img
-      src="./image/gardenImage.jpg"
-      alt="garden image"
-      className="garden-img"
-    />
-  );
-}
+// function Images() {
+//   return (
+//     <img
+//       src="./image/gardenImage.jpg"
+//       alt="garden image"
+//       className="garden-img"
+//     />
+//   );
+// }
 
-export default Images;
+// export default Images;
